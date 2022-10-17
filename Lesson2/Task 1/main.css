@@ -1,0 +1,49 @@
+.grandfather {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.upper_father {
+    background: #2269ba;
+    height: 300px;
+    width: 1020px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle_father {
+    display: flex;
+}
+
+.block2, .block3, .block4 {
+    width: 333.33px;
+    height: 400px;
+    background: #16457a;
+    margin: 10px 5px 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.lower_father {
+    background: #2269ba;
+    height: 500px;
+    width: 1020px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big {
+    font-size: 40px;
+    font-family: Arial;
+    color: white;
+}
+.small{
+    font-size: 18.5px;
+    font-family: Arial;
+    color: white;
+}

@@ -14,9 +14,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 .middle_father {
     display: flex;
+    flex-wrap: wrap;
+
 }
 
 .block2, .block3, .block4 {
@@ -27,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 
 }
 .lower_father {
@@ -36,13 +40,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
-.big {
+.big_font {
     font-size: 40px;
     font-family: Arial;
     color: white;
 }
-.small{
+.small_font{
     font-size: 18.5px;
     font-family: Arial;
     color: white;

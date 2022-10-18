@@ -1,4 +1,4 @@
-body {
+.center {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -6,7 +6,8 @@ body {
     flex-wrap: wrap;
 }
 .father_cards {
-    height: auto;
+    height: 800px;
+    width: 1500px;
     background: #6c9187;
     display: flex;
     justify-content: space-evenly;

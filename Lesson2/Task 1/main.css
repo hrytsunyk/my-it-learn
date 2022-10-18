@@ -1,16 +1,15 @@
 .grandfather {
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 40px;
+
 
 }
 
 .upper_father {
     background: #2269ba;
-    height: 300px;
+    height: 200px;
     width: 1020px ;
     display: flex;
     justify-content: center;
@@ -19,6 +18,8 @@
 }
 .middle_father {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 
 }
@@ -36,7 +37,7 @@
 }
 .lower_father {
     background: #2269ba;
-    height: 500px;
+    height: 325px;
     width: 1020px;
     display: flex;
     justify-content: center;

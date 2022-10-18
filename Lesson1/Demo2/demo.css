@@ -1,11 +1,12 @@
 .main_container {
     width: 100vw;
     height: 100vh;
-    background: grey;
+    /*background: grey;*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .container_father {
     width: 50%;
     height: 60%;
@@ -17,9 +18,35 @@
     box-sizing: border-box;
     padding: 30px;
 }
+
 .child {
     width: 45%;
-    height: 20%;
+    height: 23%;
     background: white;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-solid {
+    font-size: 40px;
+    box-sizing: border-box;
+    padding: 30px;
+    color: #8d8d8d;
+
+}
+h2 {
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0 0 5px 0;
+    color: #f29e3c;
+
+}
+
+p {
+    font-size: 14px;
+    font-family: Arial;
+    text-align: unset;
+    margin: 0;
+    color: #8d8d8d;
 }

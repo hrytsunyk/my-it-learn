@@ -5,11 +5,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+
 }
 
 .container_father {
-    width: 50%;
-    height: 60%;
+    width: 900px;
     background: #08bdd4;
     display: flex;
     justify-content: space-evenly;
@@ -17,15 +18,19 @@
     flex-wrap: wrap;
     box-sizing: border-box;
     padding: 30px;
+
 }
 
 .child {
-    width: 45%;
-    height: 23%;
+    width: 400px;
+    height: 100px;
     background: white;
     border-radius: 5px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin: 10px;
+
 }
 
 .fa-solid {
@@ -35,18 +40,23 @@
     color: #8d8d8d;
 
 }
+
 h2 {
+    font-size: 18px;
     font-family: Arial;
-    font-size: 16px;
     margin: 0 0 5px 0;
     color: #f29e3c;
+    margin: 5px 0 5px 0;
+}
 
+.text {
+   justify-content: center;
+    align-items: center;
 }
 
 p {
     font-size: 14px;
     font-family: Arial;
-    text-align: unset;
     margin: 0;
     color: #8d8d8d;
 }

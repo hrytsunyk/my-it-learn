@@ -40,7 +40,6 @@
     flex-wrap: wrap;
     position: relative;
 
-
 }
 
 .text {
@@ -52,7 +51,6 @@
     text-align: center;
     position: relative;
     bottom: 10px;
-
 
 }
 
@@ -66,8 +64,6 @@
     align-items: center;
     position: relative;
     bottom: 10px;
-
-
 }
 
 .circle {
@@ -98,4 +94,7 @@
 
 a:visited {
     color: #19242d;
+}
+a {
+    text-decoration: none;
 }

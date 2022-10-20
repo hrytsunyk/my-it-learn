@@ -1,0 +1,50 @@
+
+.all-components{
+    width: 100vw;
+    height: 100vh;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*flex-wrap: wrap;*/
+}
+.widgets{
+    width: 650px;
+    height: 200px;
+    background-color: #246abc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+.card-widgets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item-widgets{
+    height: 250px;
+    width: 200px;
+    background-color: #18467b;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+.contact{
+    width: 650px;
+    height: 350px;
+    background-color: #246abc;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

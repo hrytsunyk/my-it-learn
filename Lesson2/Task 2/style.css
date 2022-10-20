@@ -1,3 +1,17 @@
+.w-300 {
+    width: 300px;
+}
+.h-400 {
+    height: 400px;
+}
+.bg-card {
+    background: #17222b;
+}
+.bd-rd {
+    -webkit-border-radius: 10px;
+}
+
+
 .center {
     height: 100vh;
     display: flex;
@@ -16,38 +30,64 @@
 }
 
 .card1 {
-    background: #17222b;
-    width: 300px;
-    height: 400px;
-    margin: 20px;
-    border-radius: 5px;
-}
-.title {
-    color: white;
-    font-family: Arial;
-    font-size: 15px;
-    box-sizing: border-box;
-    padding: 40px 30px 0px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
 
-}.text {
+
+}
+.text {
     color: white;
     font-family: Arial;
-    font-size: 18.5px;
+    font-size: 18px;
     box-sizing: border-box;
-     padding: 40px 30px 30px;
+    padding: 0px 15px 0px;
     text-align: center;
+    position: relative;
+    bottom: 10px;
+
+
+
 }
 .button {
      width:200px;
      height: 50px;
     font-family: Arial;
-     background: #9bc5ba;
+     background: #729b89;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    margin-top: 20px;
+    position: relative;
+    bottom: 10px;
     border-radius: 5px;
 
+
+}
+.circle {
+    width: 100px;
+    height: 100px;
+   border-radius: 50%;
+    background: #e3a81b;
+}
+.circir {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+}
+.fa-solid {
+    font-size: 35px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.button:hover {
+    background: #e3a91d;
+    transition: 300ms;
+}
+
+a:visited{
+    color: #19242d;
 }

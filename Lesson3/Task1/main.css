@@ -54,16 +54,38 @@
 
 }
 
-.button {
+.content button {
     width: 200px;
     height: 50px;
     font-family: Arial;
-    background: #729b89;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: white;
+    background: transparent;
     position: relative;
-    bottom: 10px;
+    overflow: hidden;
+    bottom: 30px;
+    border-radius: 10px;
+}
+.content button::before{
+    content: "" ;
+    display: block;
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    background: #ffffff;
+    transform: skew(20deg);
+    filter: blur(10px);
+    top: 0;
+    left: -40px;
+    animation: xxx 2000ms ease-in-out infinite;
+}
+
+@keyframes xxx {
+    0% {
+        left: -40px;
+    }
+    100% {
+        left: 100%;
+    }
 }
 
 .circle {
@@ -87,7 +109,7 @@
     left: 30px;
 }
 
-.button:hover {
+button:hover {
     background: #e3a91d;
     transition: 300ms;
 }

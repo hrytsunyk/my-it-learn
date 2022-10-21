@@ -75,16 +75,16 @@
     transform: skew(20deg);
     filter: blur(10px);
     top: 0;
-    left: -40px;
+    left: -100px;
     animation: xxx 2000ms ease-in-out infinite;
 }
 
 @keyframes xxx {
     0% {
-        left: -40px;
+        left: -100px;
     }
     100% {
-        left: 100%;
+        left: 150%;
     }
 }
 

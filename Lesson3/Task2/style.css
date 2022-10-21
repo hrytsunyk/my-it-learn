@@ -15,10 +15,10 @@
 }
 
 .h-10 {
-    height: 100px;
+    height: 30px;
 }
 .h-70 {
-    height: 70vh;
+    height:70vh;
 }
 .h-20 {
     height: 600px;
@@ -26,14 +26,19 @@
 }
 .h-60 {
     height: 60px;
-}.h-200 {
+}
+.h-45 {
+    height: 50px;
+}
+
+.h-200 {
     height: 200px;
 }
 .w-200{
     width: 200px;
 }
 .w-60 {
-    width: 80px;
+    width: 60px;
 }
 .flex-btw {
     display: flex;
@@ -58,7 +63,7 @@
 }
 .pad{
     box-sizing: border-box;
-    padding: 50px;
+    padding: 30px;
 }
 .content-block {
     position: relative;
@@ -67,29 +72,29 @@
 }
 .mini-cube {
     position: relative;
-    top: -20px;
-    border-radius: 60px;
+    top: -12px;
+    border-radius: 50px;
 }
 .fa-solid {
-    font-size: 30px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px;
 
 }
-.text {
+.text{
     font-family: Arial;
     text-align: center;
     color: #ced8e1;
     position: relative;
     top: -50px;
-    border-radius: 50px;
     box-sizing: border-box;
     padding: 12px;
 
 }
-p, h2 {
-    margin: 5px 0 5px 0;
-}
+
 img {
-    width: 150px;
+    width: 100px;
+
 }
 .hover:hover {
     background: #ffbe26;
@@ -101,3 +106,19 @@ img {
     top: 30px;
 }
 
+.titletext {
+    font-size: 25px;
+    width: 600px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 150px;
+}
+.describtion {
+    position: relative;
+    top: -80px;
+}
+
+.inform-block {
+    flex-direction: column;
+}

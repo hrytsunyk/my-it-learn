@@ -21,7 +21,7 @@
     height:70vh;
 }
 .h-20 {
-    height: 600px;
+    height: 300px;
 
 }
 .h-60 {
@@ -96,17 +96,13 @@ img {
     width: 100px;
 
 }
-.hover:hover {
-    background: #ffbe26;
-    transition: 300ms;
-}
 
 .content-blockfather {
     position: relative;
     top: 30px;
 }
 
-.titletext {
+.titletext  {
     font-size: 25px;
     width: 600px;
     text-align: center;
@@ -114,13 +110,16 @@ img {
     position: relative;
     top: 150px;
 }
-.describtion {
+.describtion, .titleh2 {
+    font-family: Arial;
+    color: #cdd7e0;
     position: relative;
     top: -80px;
 }
 
 .inform-block {
     flex-direction: column;
+
 }
 
 .content button {
@@ -135,8 +134,13 @@ img {
     border-radius: 5px;
     border: none;
 }
+i:hover {
+        color: white;
+    transition: 300ms;
+    }
     button:hover {
         color: white;
+        transition: 300ms;
     }
 .content button::before{
     content: "" ;
@@ -159,4 +163,67 @@ img {
     100% {
         left: 150%;
     }
+}
+
+.footer-block {
+    font-family: Arial;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #132e41;
+    /*position: relative;*/
+}
+
+.footer-block-title {
+    position: relative;
+    bottom: 40px;
+}
+.footer-content-block {
+
+}
+.footer-content-block-title {
+    position: relative;
+    top: 115px;
+
+}
+.footer-blockfather {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content button::before{
+    content: "" ;
+    display: block;
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    background: #ffffff;
+    transform: skew(20deg);
+    filter: blur(5px);
+    top: 0;
+    left: -100px;
+    animation: xxx 2000ms ease-in-out infinite;
+}
+
+@keyframes xxx {
+    0% {
+        left: -100px;
+    }
+    100% {
+        left: 150%;
+    }
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #000;
+    width: 50%;
+    height: 500px;
 }

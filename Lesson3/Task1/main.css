@@ -112,11 +112,9 @@
 button:hover {
     background: #e3a91d;
     transition: 300ms;
+    font-size: 18px;
 }
 
-a:visited {
-    color: #19242d;
-}
 a {
     text-decoration: none;
 }

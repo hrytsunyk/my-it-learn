@@ -1,0 +1,51 @@
+.father {
+    margin: 10px;
+
+}
+
+.block_a {
+    width: 100%;
+    height: 330px;
+    background: #00517e;
+    margin-bottom: 10px;
+
+}
+
+.bottom_bcde {
+    width: 75%;
+    height: 660px;
+
+
+}
+
+.main_bottom {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom_b {
+    width: 100%;
+    height: 330px;
+    background: #00517e;
+}
+
+.bottom_cde {
+    width: 32.8%;
+    height: 330px;
+    background: #00517e;
+}
+
+.main_cde {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.bottom_f {
+    width: 25%;
+    height: 670px;
+    background: #00517e;
+    margin-left: 10px;
+}
